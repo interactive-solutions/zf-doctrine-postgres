@@ -5,7 +5,12 @@
   "require": {
     "php": "^7.0.0"
   },
-  "classmap": [
-    "./Module.php"
-  ]
+  "autoload": {
+    "psr-4": {
+      "InteractiveSolutions\\Postgres\\": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  }
 }
