@@ -1,0 +1,11 @@
+{
+  "name": "interactive-solutions/zf-doctrine-postgres",
+  "description": "Doctrine utility functions for postgresql",
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.0.0"
+  },
+  "classmap": [
+    "./Module.php"
+  ]
+}
